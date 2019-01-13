@@ -29,13 +29,21 @@ This is a CLI for my project generation
 ## Installation
 
 ```
-TODO
+npm i -g generator-hhg-oss
+```
+or
+```
+yarn global add generator-hhg-oss
 ```
 
 ## Usage
 
 ```
 generator-hhg-oss generate
+```
+or
+```
+generator-hhg-oss g
 ```
 
 Follow the prompts...
