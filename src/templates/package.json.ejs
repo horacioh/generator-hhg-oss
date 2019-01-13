@@ -1,0 +1,46 @@
+{
+  "name": "<%= props.moduleName %>",
+  "version": "0.0.0-semantically-released",
+  "description": "<%= props.description %>",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
+  "scripts": {
+    "add-contributor": "kcd-scripts contributors add",
+    "build": "kcd-scripts build",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "kcd-scripts validate",
+    "setup": "npm install && npm run validate -s"
+  },
+  "files": ["dist"],
+  "keywords": [],
+  "author": "Horacio Herrera <me@hherrerag.com> (<%= props.website %>)",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.2.0"
+  },
+  "devDependencies": {
+    "kcd-scripts": "^0.46.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "kcd-scripts pre-commit"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/kcd-scripts/eslint.js"
+  },
+  "eslintIgnore": ["node_modules", "coverage", "dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horacioh/<%= props.moduleName %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/horacioh/<%= props.moduleName %>/issues"
+  },
+  "homepage": "https://github.com/horacioh/<%= props.moduleName %>#readme"
+}
