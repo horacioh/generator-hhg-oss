@@ -1,8 +1,7 @@
 {
   "name": "generator-hhg-oss",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "generator-hhg-oss CLI",
-  "private": true,
   "bin": {
     "generator-hhg-oss": "bin/generator-hhg-oss"
   },
