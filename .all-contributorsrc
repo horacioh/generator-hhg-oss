@@ -1,0 +1,22 @@
+{
+  "projectName": "generator-hhg-oss",
+  "projectOwner": "horacioh",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "horacioh",
+      "name": "Horacio Herrera",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/725120?s=460&v=4",
+      "profile": "http://hherrerag.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ]
+}
