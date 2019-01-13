@@ -15,7 +15,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/725120?s=460&v=4",
       "profile": "http://hherrerag.com",
       "contributions": [
-        "doc"
+        "doc",
+        "code",
+        "infra"
       ]
     }
   ]
